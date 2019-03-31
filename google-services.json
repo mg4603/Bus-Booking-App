@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "950565769826",
+    "firebase_url": "https://bupool-20c68.firebaseio.com",
+    "project_id": "bupool-20c68",
+    "storage_bucket": "bupool-20c68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950565769826:android:4c1d1a602c84a318",
+        "android_client_info": {
+          "package_name": "com.michael.applicationhackathon2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950565769826-601nste2its5u6c8uak0vg40oa2rslqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj-3LMsd0dQo12Jf-dJFTscCe7_8ttstA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

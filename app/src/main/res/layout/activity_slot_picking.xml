@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anroid="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background = "@drawable/slotback">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:alpha = "0.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Booking Slot options"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:paddingBottom="40dp"
+            android:padding = "20dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="#000"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable = "true"
+                android:id = "@+id/fridayeven"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text = "Friday Evening"
+                    android:alpha = "1"
+                    android:padding="20dp"
+                    android:background="@android:color/transparent"
+                    android:textSize = "30dp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable = "true"
+                android:id = "@+id/saturdaymorn">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Saturday Morning"
+                    android:alpha="1"
+                    android:padding = "20dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable = "true"
+                android:id = "@+id/saturdayeven">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Saturday Evening"
+                    android:alpha="1"
+                    android:padding = "20dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable = "true"
+                android:orientation="vertical"
+                android:id = "@+id/sundayeven">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Sunday Evening"
+                    android:alpha="1"
+                    android:padding = "20dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="30dp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:text = "RS."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50"
+            android:textSize="30dp"
+            android:id = "@+id/textViewPrice"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</android.widget.RelativeLayout>
